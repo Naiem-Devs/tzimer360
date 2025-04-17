@@ -1,0 +1,248 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .place__wrp {
+        margin-left: -70px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+    .place__wrp {
+        margin-left: -50px;
+    }
+    .place-card-info ol {
+        flex-wrap: wrap;
+        gap: 0 10px;
+    }
+    
+    .place-card-pricing h4 del {
+        flex-wrap: nowrap;
+        display: block;
+    }
+  
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .place__wrp {
+        margin-left: -37px;
+    }
+    .place-card-info ol {
+        flex-wrap: wrap;
+        gap: 0 10px;
+    }
+    .place-area {
+        padding-bottom: 50px;
+    }
+    .tab-nav ul li a {
+        padding: 10px 14px;
+    }
+    .footer-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 27px;
+    }
+    
+    .footer-social ul {
+        justify-content: center;
+    }
+    .footer-social {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .footer-nav {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .Reviews-content ul {
+        gap: 10px;
+    }
+    
+    .Reviews-content ul li {
+        height: 80px;
+    }
+    .Location-img {
+        margin-bottom: 20px;
+    }
+    .order__wrp {
+        max-width: 100%;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .header-area {
+        padding: 20px 0;
+    }
+    .place__wrp {
+        margin-left: -37px;
+    }
+    .place-card-info ol {
+        flex-wrap: wrap;
+        gap: 0 10px;
+    }
+    .place-card-pricing h4 del {
+        display: block;
+    }
+    .place-area {
+        padding-bottom: 50px;
+    }
+    .src-filter-wrp {
+        height: 52px;
+    }
+    .footer-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 27px;
+    }
+    
+    .footer-social ul {
+        justify-content: center;
+    }
+    .footer-social {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .footer-nav {
+        margin: 40px 0;
+        text-align: center;
+        flex-direction: column;
+        gap: 30px 0;
+    }
+    .Reviews-content ul {
+        gap: 10px;
+        width: max-content;
+    }
+    
+    .Reviews-content ul li {
+        height: 80px;
+    }
+    .Reviews__nav{
+    overflow: auto;
+}
+.faq-area .tab-nav {
+    overflow: auto;
+}
+.packege__blk {
+    flex-direction: column;
+    padding: 0;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.packege__options {
+    display: none;
+}
+
+.packege__img {
+    max-width: 100%;
+}
+
+.packege__img img {
+    width: 100%;
+    border-radius: 0;
+}
+
+.packege__img img:nth-child(2) {
+    display: none;
+}
+.Dalton__grid {
+    grid-template-columns: repeat(2, 5fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.div1 {
+    grid-column: span 2 / span 1;
+    grid-row: span 1 / span 1;
+}
+
+.div2 {
+    grid-column-start: 1;
+}
+
+.div3 {
+    grid-column-start: 2;
+}
+
+.div4 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.selected__list ul li a {
+    padding: 6px 12px !important;
+    font-size: 12px;
+}
+
+.Location-img {
+    height: 215px;
+    margin-bottom: 20px;
+}
+
+.mb_100 {margin-bottom: 50px;}
+.footer-area {
+    padding-bottom: 0px;
+}
+.details-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input__blk input {
+    height: 42px;
+}
+
+.details-form-info {
+    margin: 0;
+    margin-top: 10px;
+}
+.order__wrp {
+    max-width: 100%;
+}
+.order__top {
+    flex-direction: column;
+}
+
+.order__nav {
+    display: none;
+}
+
+.order__summary {align-items: flex-start;}
+
+.order__summ-text {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.order__summ-text a {
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.delicious__blk .flex {
+    flex-direction: column;
+}
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
