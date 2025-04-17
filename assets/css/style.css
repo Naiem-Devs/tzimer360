@@ -544,7 +544,7 @@ a.border-btn.user {
 .place-card-content {display: flex;margin-top: 12px;justify-content: space-between;}
 .place-card-info {font-size: 14px;}
 
-.place-card-info b {
+.place-card-info .b {
     font-size: 12px;
     font-weight: 700;
     color: var(--redColor);
